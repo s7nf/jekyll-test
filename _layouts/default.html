@@ -5,17 +5,18 @@
   <title>
 	SUP Rental Shop
   </title>
+  <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 </head>
 <body>
   <header>
     <h1>Izposoja SUP desk</h1>
-    <nav>
-      <ul>
-        <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-        <li><a href="{{site.baseurl}}/news.html">News</a></li>
-      </ul>
-    </nav>
+    {%  include nav.html navclass='nav-top1' %}
   </header>
   {{content}}
+
+  <footer>
+  {% include nav.html navclass='nav-bottom1' %}
+  <p>2016 Blaž Malej s.p.</p>
+  </footer>
 </body>
 </html>

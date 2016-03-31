@@ -1,0 +1,12 @@
+---
+layout: news
+---
+<h1>Random ramblings</h1>
+<ul>
+  {% for random in site.categories.random limit:2%}
+  <li>
+    <a href=""> {{random.title}} </a>
+    <p>{{random.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>

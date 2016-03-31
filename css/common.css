@@ -1,0 +1,19 @@
+html {
+  margin: 0;
+  padding: 0;
+
+  font: normal 100%/1.4 Georgia, serif;
+}
+
+.current {
+  background-color: #000531;
+  color: #fff;
+}
+
+li {
+  display: inline;
+}
+
+.nav-top1 {
+  font-size: 1.5rem;
+}
